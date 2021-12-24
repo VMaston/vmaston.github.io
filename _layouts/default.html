@@ -21,7 +21,7 @@
         <div class="line"></div>
         {% for item in site.navigation %} {% assign class = 'menu' %} {% if item.url == page.url%} {% assign class =
         'active menu' %} {% endif %}
-        <a href="{{ item.url }}" class="{{ class }}"> {{ item.title }} </a>
+        <a href="{{ item.url }}" class="menu"> {{ item.title }} </a>
 
         {% endfor %}
       </div>
