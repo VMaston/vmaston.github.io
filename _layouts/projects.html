@@ -3,11 +3,12 @@ layout: default
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/css/styles_blog.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/styles_projects.css" />
 <script src="/assets/js/javascript_blog.js"></script>
 
 {{ content }}
 <ul class="myposts">
-  {% for post in site.posts %} {% if post.path contains 'blog' %}
+  {% for post in site.posts %} {% if post.path contains 'projects' %}
   <div class="blogentry">
     <a href="{{ post.url }}" class="title">{{ post.title}}</a>
     <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
