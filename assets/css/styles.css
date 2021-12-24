@@ -96,7 +96,6 @@ body {
   text-decoration: none;
 }
 
-.logo:hover,
 .menu:hover {
   border-radius: 10px;
   background-color: yellowgreen;
