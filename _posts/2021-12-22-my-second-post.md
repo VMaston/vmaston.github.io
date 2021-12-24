@@ -1,5 +1,5 @@
 ---
-title: My First Post
+title: My Second Post
 layout: blogpost
 blurb: An example of my first post.An example of my first post.An example of my first post.An example of my first post.An example of my first post.
 ---

@@ -6,7 +6,8 @@ function openNav() {
 
   button.onmouseout = '';
   bio.style.display = '';
-  main.style.gridTemplateColumns = 'auto 0 25%';
+  main.style.gridTemplateAreas = "'description button bio'";
+  main.style.gridTemplateColumns = '74.5% 0 auto';
 
   button.setAttribute('onClick', 'javascript: closeNav();');
   button.style.opacity = 0;
@@ -20,20 +21,19 @@ function closeNav() {
   var button = document.getElementById('button');
   var main = document.getElementById('main');
   var bio = document.getElementById('bio');
-  var description = document.getElementById('description');
 
   bio.style.display = 'none';
   main.style.gridTemplateAreas = "'description bio button'";
 
-  main.style.gridTemplateColumns = '75% auto 30px';
+  main.style.gridTemplateColumns = '74.5% auto 30px';
 
-  // button.onmouseover = function () {
-  //   main.style.gridTemplateColumns = '75% 40px 0';
-  // };
+  button.onmouseover = function () {
+    main.style.gridTemplateColumns = '74.5% auto 40px';
+  };
 
-  // button.onmouseout = function () {
-  //   main.style.gridTemplateColumns = '75% 30px 0';
-  // };
+  button.onmouseout = function () {
+    main.style.gridTemplateColumns = '74.5% auto 30px';
+  };
 
   button.setAttribute('onClick', 'javascript: openNav();');
   button.style.opacity = 100;
