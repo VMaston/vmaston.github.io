@@ -1,6 +1,6 @@
 ---
-title: My First Post
-layout: default
+title: My Third Post
+layout: blogpost
 ---
 
 Some sample content...
