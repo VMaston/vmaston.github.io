@@ -2,3 +2,13 @@ title: Vincent Maston
 
 domain: vmaston.github.io
 url: https://vmaston.github.io
+
+navigation:
+  - title: about
+    url: /
+  - title: projects
+    url: /projects.html
+  - title: blog
+    url: /blog.html
+  - title: contact
+    url: /contact.html

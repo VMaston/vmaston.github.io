@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  margin: auto;
+  width: 30%;
+}
+
+.bio {
+}
+
+.button {
+  display: none;
+}
