@@ -4,9 +4,7 @@
   width: 30%;
 }
 
-.bio {
-}
-
 .button {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
