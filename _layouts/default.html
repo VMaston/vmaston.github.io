@@ -15,8 +15,8 @@
         <div class="line"></div>
         <div class="logo">Vincent Maston</div>
         <div class="line"></div>
-        {{page.url}} {% for item in site.navigation %} {% assign class = 'menu' %} {% if item.url == page.url%} {%
-        assign class = 'active menu' %} {% endif %}
+        {% for item in site.navigation %} {% assign class = 'menu' %} {% if item.url == page.url%} {% assign class =
+        'active menu' %} {% endif %}
         <a href="{{ item.url }}" class="{{ class }}"> {{ item.title }} </a>
 
         {% endfor %}
