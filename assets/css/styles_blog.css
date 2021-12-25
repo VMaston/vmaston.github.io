@@ -1,13 +1,18 @@
 .description {
   background-color: rgba(40, 40, 40, 0.95);
-  margin: 0;
   grid-column: 1/2;
-  height: 90vh;
-  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.main {
+  overflow: hidden;
 }
 
 .myposts {
   display: grid;
+  overflow-y: auto;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
 }
@@ -31,14 +36,15 @@
   text-decoration: none;
 }
 
-/* .blogentry:hover {
-  background-color: #dfdfdf2d;
-} */
-
 .title {
+  text-decoration: none;
   font-size: large;
   color: yellowgreen;
   grid-column: 1 / span 2;
+}
+
+.blogentry:hover .title {
+  text-decoration: underline;
 }
 
 .postDate {
