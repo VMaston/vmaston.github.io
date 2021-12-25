@@ -133,7 +133,7 @@ body {
 .description {
   grid-area: description;
   background-color: rgba(40, 40, 40, 0.95);
-  grid-column: 1 / 3; /* Overflow into button area so content is centrally aligned. */
+  grid-column: 1 / 2; /* Overflow into button area so content is centrally aligned. */
 }
 
 /* === SIDEBAR === */
