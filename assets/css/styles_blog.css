@@ -23,8 +23,7 @@
 .blogentry {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 34.5px 1fr;
-  gap: 10px;
+  grid-template-rows: auto 1fr;
   padding: 30px;
   border-radius: 10px;
   margin: 5px;
@@ -56,6 +55,6 @@
 .blurb {
   grid-row: 2;
   grid-column: 1 / span 3;
-  margin-top: -5px;
-  margin-bottom: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
