@@ -8,7 +8,6 @@
 :root {
   --background: rgb(40, 40, 40);
   --accent: yellowgreen;
-  --accent-bright: rgb(167, 247, 47);
   --text: white;
   --accent-text: black;
 
@@ -99,11 +98,11 @@ body {
 
 .menu:hover {
   border-radius: 10px;
-  background-color: yellowgreen;
+  background-color: var(--accent);
 }
 
 .active {
-  color: yellowgreen;
+  color: var(--accent);
 }
 
 .active:hover {
@@ -111,7 +110,7 @@ body {
 }
 
 .logo {
-  color: yellowgreen;
+  color: var(--accent);
   font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -204,7 +203,8 @@ body {
 
 .contact-me {
   color: black;
-  background-color: var(--accent-bright);
+  background-color: var(--accent);
+  filter: brightness(120%);
   border-radius: 25px;
   margin-left: 1rem;
   margin-right: 1rem;
