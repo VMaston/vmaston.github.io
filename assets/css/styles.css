@@ -55,6 +55,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: minmax(55px, 10%) 1fr;
+  background-color: rgb(40, 40, 40, 40%);
   gap: 2px;
 
   text-align: auto;
