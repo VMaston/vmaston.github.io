@@ -1,17 +1,17 @@
-.myposts {
-  display: none;
-}
-
-.description {
-  display: flex;
-}
-
 h1 {
   border-bottom: 2px solid var(--accent);
 }
 
 p {
   padding-left: 1em;
+}
+
+.myposts {
+  display: none;
+}
+
+.description {
+  display: flex;
 }
 
 .postwindow {
