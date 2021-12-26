@@ -6,12 +6,15 @@ layout: default
 <script src="/assets/js/javascript_blog.js"></script>
 
 {{ content }}
-<ul class="myposts">
+
+<div class="myposts">
   {% for post in site.posts %} {% if post.path contains 'blog' %}
+
   <div class="blogentry">
     <a href="{{ post.url }}" class="title">{{ post.title}}</a>
     <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
     <span class="blurb">{{post.blurb}}</span>
   </div>
+
   {% endif %} {% endfor %}
-</ul>
+</div>

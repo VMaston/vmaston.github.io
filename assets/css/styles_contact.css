@@ -5,11 +5,11 @@
   width: auto;
 }
 
-.bio {
-  border-right: 2px solid rgba(245, 245, 245, 0.1);
-}
-
 .button {
   opacity: 0;
   pointer-events: none;
+}
+
+.bio {
+  border-right: 2px solid rgba(245, 245, 245, 0.1);
 }

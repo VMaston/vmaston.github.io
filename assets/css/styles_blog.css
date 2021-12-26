@@ -1,12 +1,13 @@
+.main {
+  grid-template-columns: 74.5% 0 auto;
+  overflow: hidden;
+}
+
 .description {
   grid-column: 1/2;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-}
-
-.main {
-  overflow: hidden;
 }
 
 .myposts {
@@ -16,9 +17,7 @@
   grid-auto-rows: 1fr;
 }
 
-.main {
-  grid-template-columns: 74.5% 0 auto;
-}
+/* === BLOG ENTRIES === */
 
 .blogentry {
   display: grid;

@@ -6,5 +6,4 @@ blurb: An example of my first post.
 
 # {{page.title}}
 
-<br>
 Some sample content...

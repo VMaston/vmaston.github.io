@@ -1,6 +1,9 @@
 .description {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border-radius: 1px;
   padding: 5%;
+}
+
+.description img {
+  padding: 1em;
 }

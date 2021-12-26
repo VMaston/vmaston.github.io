@@ -1,99 +1,94 @@
 /* === GLOBAL SETTINGS === */
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 :root {
   --background: rgb(40, 40, 40);
   --accent: yellowgreen;
   --text: white;
   --accent-text: black;
-
-  /* --background: rgb(252, 240, 225);
-  --accent: lightcoral;
-  --accent-bright: rgb(248, 153, 153);
-  --text: rgb(255, 255, 255);
-  --accent-text: #171516; */
-}
-
-body-inside {
-  position: relative;
 }
 
 body {
-  /* background-color: var(--background); */
-  color: var(--text);
-
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text);
 }
 
-/* === HEADER SETTINGS === */
+/* === ELEMENT SETTINGS === */
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+
+p {
+  margin-top: 1.2em;
+}
+
+/* === WRAPPER SETTINGS === */
 
 .wrapper::before {
+  display: block;
+  height: 100%;
+
   content: '';
   position: fixed;
   left: 0;
   right: 0;
   z-index: -1;
 
-  display: block;
   background-image: url('/assets/img/background.jpg');
-  width: auto;
-  height: 100%;
   filter: grayscale(50%);
 }
 
 .wrapper {
-  z-index: 0;
-  height: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: minmax(55px, 10%) 1fr;
-  background-color: rgb(40, 40, 40, 40%);
-  gap: 2px;
+  height: 100%;
 
-  text-align: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(auto, 10.2%) 1fr; /* .02% is to maintain former height  */
+
   grid-template-areas:
     'header'
     'main';
+
+  background-color: rgb(40, 40, 40, 40%); /* Grey Overlay over Background Image */
 }
+
+/* === HEADER SETTINGS === */
 
 .header {
+  grid-area: header; /* Parent: Wrapper */
+
   display: grid;
   grid-template-columns: 5fr auto 55fr repeat(4, 10fr) 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
+  gap: 20px;
 
-  grid-area: header;
-  background-color: var(--background);
-  color: white;
-
-  height: auto;
   text-align: center;
-  border-bottom: 2px solid var(--accent);
-  margin-bottom: -2px;
-
   align-items: center;
+
+  border-bottom: 2px solid var(--accent);
+  background-color: var(--background);
 }
 
-.line {
-  display: inline-block;
-  width: auto;
-  height: 2px;
-  opacity: 0.2;
+.logo {
+  font-size: calc(1.91em + 1vmin);
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--accent);
 }
 
-.logo,
 .menu {
-  font-size: x-large;
-  height: auto;
-  color: inherit;
-  text-decoration: none;
+  font-size: calc(0.91em + 1vmin);
 }
 
 .menu:hover {
@@ -106,83 +101,79 @@ body {
 }
 
 .active:hover {
-  color: black;
-}
-
-.logo {
-  color: var(--accent);
-  font-size: 40px;
-  font-family: 'Courier New', Courier, monospace;
+  color: var(--accent-text);
 }
 
 /* === CONTENT SETTINGS === */
 
 .main {
+  grid-area: main; /* Parent: Wrapper */
   height: 100%;
+
   display: grid;
-  grid-area: main;
-  gap: 5px;
   grid-template-columns: auto 0 25%;
   grid-template-rows: 100%;
+  gap: 5px;
 
   grid-template-areas: 'description button bio';
 }
 
-/* === LEFT === */
+/* === MAIN CONTENT WINDOW === */
 
 .description {
-  grid-area: description;
+  grid-area: description; /* Parent: Main */
+  grid-column: 1 / 2; /* Overflow into button area so content is centrally aligned when sidebar is pushed-in. */
+
   background-color: rgba(40, 40, 40, 0.95);
-  grid-column: 1 / 2; /* Overflow into button area so content is centrally aligned. */
 }
 
 /* === SIDEBAR === */
 
 .button {
-  grid-area: button;
-  display: flex;
-  justify-content: left;
+  grid-area: button; /* Parent: Main */
+
   padding-left: 10px;
-  align-items: flex-start;
-  font-size: 25px;
-  text-align: right;
+  font-size: 1.55em;
+  text-align: left;
+
   color: var(--accent);
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  position: relative;
 }
 
 .button:hover {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
   cursor: pointer;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 }
 
 /* === BIO === */
 
 .bio {
+  grid-area: bio; /* Parent: Main */
   height: 100%;
-  border-left: 2px solid rgba(245, 245, 245, 0.103);
-  background-color: rgba(40, 40, 40, 0.95);
-  font-size: 0.85vmax;
-  text-align: center;
-  margin-left: -2px;
+
   display: flex;
   flex-direction: column;
-  grid-row: 1;
-  grid-column: 3;
+
+  font-size: 0.85vmax;
+  text-align: center;
+
+  border-left: 2px solid rgba(245, 245, 245, 0.103);
+  margin-left: -2px; /* Hacky tweak to minimize gap between description & bio without ruining current sizes */
+  background-color: rgba(40, 40, 40, 0.95);
 }
 
 /* === IMAGE CONTAINER === */
 
 .image-container {
-  grid-area: image;
   padding-top: 1em;
 }
 
 .me {
-  border-radius: 50%;
-  height: auto;
   width: 40%;
-  margin: auto;
+
+  border-radius: 50%; /* Circle */
+  margin: auto; /* Centre */
+
   border: solid rgba(245, 245, 245, 0.103);
 }
 
@@ -190,37 +181,35 @@ body {
 
 .status {
   flex-grow: 1;
-  grid-area: status;
+  padding: 1em;
   text-align: left;
-  padding: 1rem;
 }
 
 /* === CONTACT === */
 
-.contact {
-  border-radius: 25px;
-}
-
 .contact-me {
-  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+
+  border-radius: 25px;
+
+  color: var(--accent-text);
   background-color: var(--accent);
   filter: brightness(120%);
-  border-radius: 25px;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .contact-methods {
   display: grid;
+
   grid-template-columns: repeat(3, auto);
-  padding-top: 1rem;
-  padding-left: 1rem;
-  grid-template-rows: auto;
+
+  padding-top: 1em;
+  padding-left: 1em;
 }
 
 .method {
   height: 70%;
-  width: auto;
+
   text-align: left;
   border-radius: 1px;
 }
