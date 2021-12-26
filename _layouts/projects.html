@@ -8,7 +8,7 @@ layout: default
 
 {{ content }}
 
-<ul class="myposts">
+<div class="myposts">
   {% for post in site.posts %} {% if post.path contains 'projects' %}
 
   <div class="blogentry">
@@ -18,4 +18,4 @@ layout: default
   </div>
 
   {% endif %} {% endfor %}
-</ul>
+</div>
