@@ -6,5 +6,4 @@ blurb: A simple password manager to showcase hashing and JWT token authenticatio
 
 # {{page.title}}
 
-<br>
 [GitHub Link](https://github.com/VMaston/Password-Manager)
