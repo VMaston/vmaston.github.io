@@ -111,7 +111,7 @@ p {
   height: 100%;
 
   display: grid;
-  grid-template-columns: auto 0 25%;
+  grid-template-columns: 74.5% 0 auto;
   grid-template-rows: 100%;
   gap: 5px;
 
