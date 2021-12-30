@@ -1,7 +1,6 @@
 .main {
   display: flex;
-  padding-left: 35%;
-  padding-right: 35%;
+  justify-content: center;
   width: auto;
 }
 
@@ -12,4 +11,20 @@
 
 .bio {
   border-right: 2px solid rgba(245, 245, 245, 0.1);
+  width: 550px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bio {
+    display: flex;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  /* For mobile phones: */
+  .status {
+    line-height: normal;
+    visibility: visible;
+  }
 }

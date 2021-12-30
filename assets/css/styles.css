@@ -12,6 +12,8 @@ body {
   margin: 0;
   padding: 0;
 
+  background-color: rgb(40, 40, 40, 40%);
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
 }
@@ -61,11 +63,37 @@ p {
   grid-template-areas:
     'header'
     'main';
+}
 
-  background-color: rgb(40, 40, 40, 40%); /* Grey Overlay over Background Image */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .wrapper {
+    display: grid;
+    height: 100%;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr; /* .02% is to maintain former height  */
+
+    grid-template-areas:
+      'header'
+      'main';
+
+    background-color: rgb(40, 40, 40, 40%); /* Grey Overlay over Background Image */
+  }
 }
 
 /* === HEADER SETTINGS === */
+
+.color-select {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 30px;
+  background-color: var(--accent);
+}
 
 .header {
   grid-area: header; /* Parent: Wrapper */
@@ -79,6 +107,43 @@ p {
 
   border-bottom: 2px solid var(--accent);
   background-color: var(--background);
+}
+
+.mobile-dropdown {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .header {
+    grid-area: header; /* Parent: Wrapper */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
+
+    text-align: center;
+    align-items: center;
+
+    border-bottom: 2px solid var(--accent);
+    background-color: var(--background);
+  }
+
+  .line {
+    display: none;
+  }
+
+  .mobile-dropdown {
+    display: block;
+    background-color: rgba(80, 80, 80, 0.95);
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
 }
 
 .logo {
@@ -104,6 +169,10 @@ p {
   color: var(--accent-text);
 }
 
+.show {
+  display: block;
+}
+
 /* === CONTENT SETTINGS === */
 
 .main {
@@ -113,9 +182,30 @@ p {
   display: grid;
   grid-template-columns: 74.5% 0 auto;
   grid-template-rows: 100%;
-  gap: 5px;
+  column-gap: 5px;
+  row-gap: 5px;
 
   grid-template-areas: 'description button bio';
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main {
+    grid-area: main; /* Parent: Wrapper */
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100%;
+    column-gap: 0;
+    row-gap: 5px;
+
+    grid-template-areas: 'description';
+  }
+
+  .button {
+    display: none;
+  }
 }
 
 /* === MAIN CONTENT WINDOW === */
@@ -145,6 +235,12 @@ p {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
 }
 
+@media only screen and (max-width: 768px) {
+  .button {
+    display: none;
+  }
+}
+
 /* === BIO === */
 
 .bio {
@@ -154,12 +250,27 @@ p {
   display: flex;
   flex-direction: column;
 
-  font-size: 0.85vmax;
+  font-size: 16px;
   text-align: center;
 
   border-left: 2px solid rgba(245, 245, 245, 0.103);
   margin-left: -2px; /* Hacky tweak to minimize gap between description & bio without ruining current sizes */
   background-color: rgba(40, 40, 40, 0.95);
+}
+
+@media only screen and (max-width: 1400px) {
+  /* For mobile phones: */
+  .status {
+    line-height: 0;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bio {
+    display: none;
+  }
 }
 
 /* === IMAGE CONTAINER === */
@@ -199,16 +310,12 @@ p {
 }
 
 .contact-methods {
-  display: grid;
-
-  grid-template-columns: repeat(3, auto);
-
   padding-top: 1em;
   padding-left: 1em;
 }
 
 .method {
-  height: 70%;
+  height: 3em;
 
   text-align: left;
   border-radius: 1px;
