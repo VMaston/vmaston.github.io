@@ -17,7 +17,7 @@ p {
 .postwindow {
   padding: 20px;
   color: aliceblue;
-  width: 100%;
+  width: auto;
   margin: 1.5%;
   margin-bottom: 0px;
   border-radius: 10px;
