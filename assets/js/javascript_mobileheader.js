@@ -7,23 +7,27 @@ windowWidth.addEventListener('change', () => {
   }
 });
 
+window.onclick = function (event) {
+  minimize(event);
+};
+
 function dropdown() {
   let x = document.getElementsByClassName('menu');
 
   let i;
 
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = 'block';
+    x[i].classList.toggle('show');
   }
 }
 
-window.onclick = function (event) {
+function minimize(event) {
   if (!event.target.matches('.mobile-dropdown') && !windowWidth.matches) {
     let x = document.getElementsByClassName('menu');
     let i;
 
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = 'none';
+      x[i].classList.remove('show');
     }
   }
-};
+}
