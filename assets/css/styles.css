@@ -191,12 +191,11 @@ button {
   height: 100%;
 
   display: grid;
-  grid-template-columns: 74.5% 0 auto;
+  grid-template-columns: 74.5% auto;
   grid-template-rows: 100%;
-  column-gap: 5px;
   row-gap: 5px;
 
-  grid-template-areas: 'description button bio';
+  grid-template-areas: 'description bio';
 }
 
 @media only screen and (max-width: 768px) {
