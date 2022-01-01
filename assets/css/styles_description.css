@@ -1,9 +1,30 @@
-.description {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 5%;
+.myposts {
+  display: none;
 }
 
 .description img {
   padding: 1em;
+}
+
+h1 {
+  border-bottom: 2px solid var(--accent);
+}
+
+p {
+  padding-left: 1em;
+}
+
+.myposts {
+  display: none;
+}
+
+.postwindow {
+  padding: 20px;
+  color: aliceblue;
+  width: auto;
+  margin: 1.5%;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
