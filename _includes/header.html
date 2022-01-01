@@ -6,8 +6,8 @@
   <a href="/" class="logo">V.Maston_</a>
   <div class="mobile-dropdown" onclick="dropdown()">↓</div>
   <div class="line"></div>
-  {% for item in site.navigation %} {% assign class = 'menu' %} {% if item.url == page.url%} {% assign class ='active
-  menu' %} {% endif %}
+  {% for item in site.navigation %} {% assign class = 'menu' %} {% if page.path contains item.title or (item.url == '/'
+  and page.path == 'index.md')%} {% assign class ='active menu' %} {% endif %}
 
   <a href="{{ item.url }}" id="menu" class="{{ class }}"> {{ item.title }} </a>
 
