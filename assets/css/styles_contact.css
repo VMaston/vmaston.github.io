@@ -4,11 +4,6 @@
   width: auto;
 }
 
-.button {
-  opacity: 0;
-  pointer-events: none;
-}
-
 .bio {
   border-right: 2px solid rgba(245, 245, 245, 0.1);
   width: 550px;

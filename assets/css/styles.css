@@ -213,10 +213,6 @@ button {
 
     grid-template-areas: 'description';
   }
-
-  .button {
-    display: none;
-  }
 }
 
 /* === MAIN CONTENT WINDOW === */
@@ -229,28 +225,6 @@ button {
 }
 
 /* === SIDEBAR === */
-
-.button {
-  grid-area: button; /* Parent: Main */
-
-  padding-left: 10px;
-  font-size: 1.55em;
-  text-align: left;
-
-  color: var(--accent);
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-}
-
-.button:hover {
-  cursor: pointer;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
-}
-
-@media only screen and (max-width: 768px) {
-  .button {
-    display: none;
-  }
-}
 
 /* === BIO === */
 
