@@ -1,7 +1,3 @@
-/* .main {
-  overflow: auto;
-} */
-
 .description {
   grid-column: 1/2;
   display: flex;
@@ -10,7 +6,6 @@
 
 .myposts {
   display: grid;
-  /* overflow-y: auto; */
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
 }
