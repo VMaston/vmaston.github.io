@@ -10,5 +10,5 @@ navigation:
     url: /projects.html
   - title: blog
     url: /blog.html
-  - title: contact
-    url: /contact.html
+  # - title: contact
+  #   url: /contact.html
