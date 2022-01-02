@@ -19,7 +19,6 @@
   padding: 30px;
   border-radius: 10px;
   margin: 5px;
-  border: 1px solid #bbbbbb;
   color: white;
   background-color: #dfdfdf17;
   text-align: left;
@@ -28,12 +27,13 @@
 
 .title {
   text-decoration: none;
+  font-weight: 600;
   font-size: large;
   color: var(--accent);
   grid-column: 1 / span 2;
 }
 
-.blogentry:hover .title {
+.title:hover {
   text-decoration: underline;
 }
 
