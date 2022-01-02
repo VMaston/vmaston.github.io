@@ -133,7 +133,7 @@ button {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap: 5px;
+    row-gap: 5px;
 
     text-align: center;
     align-items: center;

@@ -6,11 +6,11 @@
   padding: 1em;
 }
 
-h1 {
+.description h1 {
   border-bottom: 2px solid var(--accent);
 }
 
-p {
+.description p {
   padding-left: 1em;
 }
 
