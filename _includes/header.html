@@ -2,8 +2,6 @@
 <script src="/assets/js/javascript_mobileheader.js"></script>
 
 <div class="header">
-  <div class="line"></div>
-  <a href="/" class="logo">V.Maston_</a>
   <div class="mobile-dropdown" onclick="dropdown()">↓</div>
   <div class="line"></div>
   {% for item in site.navigation %} {% assign class = 'menu' %} {% if page.path contains item.title or (item.url == '/'
@@ -12,5 +10,6 @@
   <a href="{{ item.url }}" id="menu" class="{{ class }}"> {{ item.title }} </a>
 
   {% endfor %}
+  <div class="line"></div>
   <button class="color-select" onclick="colorPick('Red')"></button>
 </div>

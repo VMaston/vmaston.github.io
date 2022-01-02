@@ -10,8 +10,9 @@
   border-bottom: 2px solid var(--accent);
 }
 
-.description p {
-  padding-left: 1em;
+.description {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .myposts {
