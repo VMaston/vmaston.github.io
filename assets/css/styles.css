@@ -110,7 +110,7 @@ button {
   grid-area: header; /* Parent: Wrapper */
 
   display: grid;
-  grid-template-columns: 5fr auto 55fr repeat(3, 10fr) 1fr;
+  grid-template-columns: 35fr repeat(3, 10fr) 35fr 1fr;
   gap: 20px;
 
   text-align: center;
