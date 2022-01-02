@@ -197,7 +197,7 @@ button {
   grid-template-areas: 'description bio';
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .main {
     grid-area: main; /* Parent: Wrapper */
@@ -241,15 +241,14 @@ button {
   background-color: rgba(40, 40, 40, 0.95);
 }
 
-@media only screen and (max-width: 1400px) {
-  /* For mobile phones: */
+/* @media only screen and (max-width: 1200px) {
   .status {
     line-height: 0;
     visibility: hidden;
   }
-}
+} */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .bio {
     display: none;
