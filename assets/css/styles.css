@@ -241,13 +241,6 @@ button {
   background-color: rgba(40, 40, 40, 0.95);
 }
 
-/* @media only screen and (max-width: 1200px) {
-  .status {
-    line-height: 0;
-    visibility: hidden;
-  }
-} */
-
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .bio {
@@ -265,8 +258,6 @@ button {
   width: 40%;
 
   border-radius: 50%; /* Circle */
-  margin: auto; /* Centre */
-
   border: solid rgba(245, 245, 245, 0.103);
 }
 
