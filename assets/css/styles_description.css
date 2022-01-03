@@ -10,9 +10,14 @@
   border-bottom: 2px solid var(--accent);
 }
 
+.description h3 {
+  border-left: 4px solid var(--accent);
+  padding-left: 0.5em;
+  font-size: xx-large;
+}
+
 .description {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0.4%;
 }
 
 .myposts {
@@ -20,10 +25,12 @@
 }
 
 .postwindow {
+  max-width: 900px;
   padding: 20px;
   color: aliceblue;
   width: auto;
-  margin: 1.5%;
+  margin: 1%;
+  margin-left: 1.5%;
   margin-bottom: 0px;
   border-radius: 10px;
   border-bottom-left-radius: 0px;

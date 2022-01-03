@@ -191,10 +191,10 @@ button {
   height: 100%;
 
   display: grid;
-  grid-template-columns: 74.5% auto;
+  grid-template-columns: auto 74.5%;
   grid-template-rows: 100%;
 
-  grid-template-areas: 'description bio';
+  grid-template-areas: 'bio description';
 }
 
 @media only screen and (max-width: 1200px) {
@@ -217,9 +217,8 @@ button {
 
 .description {
   grid-area: description; /* Parent: Main */
-  grid-column: 1 / 2; /* Overflow into button area so content is centrally aligned when sidebar is pushed-in. */
 
-  background-color: rgba(40, 40, 40, 0.95);
+  background-color: rgba(30, 30, 30, 0.95);
 }
 
 /* === SIDEBAR === */
@@ -236,8 +235,7 @@ button {
   font-size: 16px;
   text-align: center;
 
-  border-left: 2px solid rgba(245, 245, 245, 0.103);
-  margin-left: -2px; /* Hacky tweak to minimize gap between description & bio without ruining current sizes */
+  border-right: 2px solid rgba(245, 245, 245, 0.103);
   background-color: rgba(40, 40, 40, 0.95);
 }
 
@@ -283,29 +281,5 @@ button {
 .status {
   flex-grow: 1;
   padding: 1em;
-}
-
-/* === CONTACT === */
-
-.contact-me {
-  margin-left: 1em;
-  margin-right: 1em;
-
-  border-radius: 25px;
-
-  color: var(--accent-text);
-  background-color: var(--accent);
-  filter: brightness(120%);
-}
-
-.contact-methods {
-  padding-top: 1em;
-  padding-left: 1em;
-}
-
-.method {
-  height: 3em;
-
-  text-align: left;
-  border-radius: 1px;
+  background-color: rgba(26, 26, 26, 0.2);
 }
