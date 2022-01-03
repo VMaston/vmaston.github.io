@@ -64,7 +64,7 @@ button {
   height: 100%;
 
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(auto, 10.2%) 1fr; /* .02% is to maintain former height  */
+  grid-template-rows: minmax(auto, 8%) 1fr; /* .02% is to maintain former height  */
 
   grid-template-areas:
     'header'
@@ -95,15 +95,15 @@ button {
   top: 0px;
   left: 0px;
 
-  height: 2em;
-  width: 2em;
-  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, var(--accent) 50.1%) no-repeat;
+  height: 1.5em;
+  width: 1.5em;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, var(--accent) 50%) no-repeat;
   overflow: hidden;
 }
 
 .color-select:hover {
-  height: 3em;
-  width: 3em;
+  height: 2em;
+  width: 2.5em;
 }
 
 .header {
@@ -251,11 +251,28 @@ button {
 /* === IMAGE CONTAINER === */
 
 .image-container {
-  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.name {
+  font-size: x-large;
+  padding: 10%;
+  color: var(--accent);
+  font-weight: lighter;
+}
+
+.undername {
+  font-size: 16px;
+  text-align: right;
+  color: var(--text);
 }
 
 .me {
-  width: 40%;
+  width: 30%;
 
   border-radius: 50%; /* Circle */
   border: solid rgba(245, 245, 245, 0.103);
@@ -266,7 +283,6 @@ button {
 .status {
   flex-grow: 1;
   padding: 1em;
-  text-align: left;
 }
 
 /* === CONTACT === */
