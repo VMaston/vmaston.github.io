@@ -124,13 +124,17 @@ button {
   display: none;
 }
 
+.imgdisplay {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
   .header-container {
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 2%;
     font-weight: 600 !important;
   }
 
