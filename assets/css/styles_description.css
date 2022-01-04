@@ -24,6 +24,27 @@
   display: none;
 }
 
+.imgdisplay {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  .image-container {
+    direction: rtl;
+    justify-content: right;
+    padding: 0;
+  }
+
+  .me {
+    width: 7em;
+  }
+
+  .imgdisplay {
+    display: flex;
+  }
+}
+
 .postwindow {
   max-width: 900px;
   padding: 20px;
