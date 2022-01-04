@@ -34,6 +34,7 @@
     direction: rtl;
     justify-content: right;
     padding: 0;
+    padding-bottom: 1em;
   }
 
   .me {
