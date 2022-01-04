@@ -1,7 +1,7 @@
 /* === GLOBAL SETTINGS === */
 
 :root {
-  --background: rgb(40, 40, 40);
+  --background: rgb(32, 32, 32);
   --accent: yellowgreen;
   --text: white;
   --accent-text: black;
@@ -150,7 +150,7 @@ button {
     display: block;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    background-color: rgba(26, 26, 26, 0.95);
+    background-color: rgba(26, 26, 26, 0.8);
     width: 100%;
   }
 
