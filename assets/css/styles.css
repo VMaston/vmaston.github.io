@@ -258,7 +258,8 @@ button {
 
 .name {
   font-size: x-large;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   color: var(--accent);
   font-weight: lighter;
 }

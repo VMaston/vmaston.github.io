@@ -2,9 +2,9 @@
   display: none;
 }
 
-.description img {
+/* .description img {
   padding: 1em;
-}
+} */
 
 .description h1 {
   border-bottom: 2px solid var(--accent);
@@ -22,6 +22,27 @@
 
 .myposts {
   display: none;
+}
+
+.imgdisplay {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  .image-container {
+    direction: rtl;
+    justify-content: right;
+    padding: 0;
+  }
+
+  .me {
+    width: 7em;
+  }
+
+  .imgdisplay {
+    display: flex;
+  }
 }
 
 .postwindow {
