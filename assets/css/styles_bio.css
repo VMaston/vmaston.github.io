@@ -49,6 +49,7 @@
 
 .me {
   width: 30%;
+  content: url('/assets/img/me.jpg');
   user-select: text;
   border-radius: 50%; /* Circle */
   border: solid rgba(245, 245, 245, 0.103);
