@@ -25,6 +25,49 @@ I am currently working as a Junior Web Developer while developing my expertise i
 
 ### Skills & Experience
 
+<div class="skills-grid">
+  <div class="skills-container">
+    <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"/>
+    <span>Angular</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+      <span>HTML5</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+      <span>CSS3</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+      <span>Javascript</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
+      <span>NodeJS</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"/>
+      <span>NestJS</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+      <span>MySQL</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+      <span>Git</span>
+  </div>
+
+</div>
+
 I design aesthetic and functional web application front-ends using HTML, CSS, and JavaScript, along with a number of other frameworks such as Angular or Jekyll to provide a complex logic layer.
 
 This skill in front-end development is paired with my experience in building reliable and scalable server-side applications using Node.js based frameworks, such as NestJS, while utilizing database technologies like MySQL to contain and manipulate complex datasets.
