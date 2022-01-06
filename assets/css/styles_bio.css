@@ -54,6 +54,11 @@
   border: solid rgba(245, 245, 245, 0.103);
 }
 
+.me:active,
+.me:hover {
+  box-shadow: 0 0 0.75em var(--accent);
+}
+
 /* === ABOUT ME === */
 
 .status {
