@@ -49,7 +49,7 @@
 
 .me {
   width: 30%;
-
+  user-select: text;
   border-radius: 50%; /* Circle */
   border: solid rgba(245, 245, 245, 0.103);
 }
