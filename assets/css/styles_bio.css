@@ -57,6 +57,7 @@
 .me:active,
 .me:hover {
   box-shadow: 0 0 0.75em var(--accent);
+  cursor: pointer;
 }
 
 /* === ABOUT ME === */
