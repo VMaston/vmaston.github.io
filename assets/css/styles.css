@@ -63,12 +63,9 @@ button {
   display: grid;
   height: 100%;
 
-  grid-template-columns: 1fr;
-  grid-template-rows: minmax(auto, 8%) 1fr; /* .02% is to maintain former height  */
+  grid-template-columns: 25% auto;
 
-  grid-template-areas:
-    'header'
-    'main';
+  grid-template-areas: 'bio main';
 }
 
 @media only screen and (max-width: 768px) {
@@ -174,10 +171,11 @@ button {
   height: 100%;
 
   display: grid;
-  grid-template-columns: auto 74.5%;
-  grid-template-rows: 100%;
+  grid-template-rows: minmax(auto, 8%) 1fr;
 
-  grid-template-areas: 'bio description';
+  grid-template-areas:
+    'header'
+    'description';
 }
 
 @media only screen and (max-width: 1200px) {
