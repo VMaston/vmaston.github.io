@@ -21,7 +21,23 @@ Following my 2021 graduation from Aberystwyth University with a Computer Science
 
 I am currently working as a Junior Web Developer while developing my expertise in System Administration and Node.js Application Development, with a focus on scalable user platforms.
 
-<!-- <img
+<br>
+
+### Skills & Experience
+
+I design aesthetic and functional web application front-ends using HTML, CSS, and JavaScript, along with a number of other frameworks such as Angular or Jekyll to provide a complex logic layer.
+
+This skill in front-end development is paired with my experience in building reliable and scalable server-side applications using Node.js based frameworks, such as NestJS, while utilizing database technologies like MySQL to contain and manipulate complex datasets.
+
+With a keen eye for the user experience and the server-side knowledge to support those experiences. I can create comprehensive web software with an intricate understanding of how these systems work at every level of abstraction.
+
+Along with my primary development skills, I am also competent in using Git, work with Linux often & have past experience with developing software for IoT devices.
+
+<br>
+
+### Contact Me
+
+<img
   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
   width="50px"
   height="auto"
@@ -34,15 +50,4 @@ I am currently working as a Junior Web Developer while developing my expertise i
   height="auto"
   style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(137deg) brightness(103%) contrast(101%)"
   alt="Github"
-/> -->
-
-<br>
-
-### Skills & Experience
-
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
-ad minima veniam, quis nostrum exercitationem ullam corporis."
+/>
