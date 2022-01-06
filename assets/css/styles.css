@@ -90,22 +90,6 @@ button {
 
 /* === HEADER SETTINGS === */
 
-.color-select {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-
-  height: 1.5em;
-  width: 1.5em;
-  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, var(--accent) 50%) no-repeat;
-  overflow: hidden;
-}
-
-.color-select:hover {
-  height: 2em;
-  width: 2.5em;
-}
-
 .header {
   grid-area: header; /* Parent: Wrapper */
 
@@ -170,16 +154,13 @@ button {
 }
 
 .menu:hover {
-  border-radius: 10px;
+  border-radius: 5px;
+  color: var(--accent-text);
   background-color: var(--accent);
 }
 
 .active {
   color: var(--accent);
-}
-
-.active:hover {
-  color: var(--accent-text);
 }
 
 .show {
