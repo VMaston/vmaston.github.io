@@ -185,12 +185,13 @@ button {
     height: 100%;
 
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100%;
+    grid-template-rows: auto 1fr;
     column-gap: 0;
-    row-gap: 5px;
+    row-gap: 0px;
 
-    grid-template-areas: 'description';
+    grid-template-areas:
+      'header'
+      'description';
   }
 }
 
