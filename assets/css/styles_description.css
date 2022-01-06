@@ -28,6 +28,10 @@
   display: none;
 }
 
+.griddisplay {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
   .image-container {
@@ -57,4 +61,24 @@
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .skills-picture {
+    padding: 0;
+  }
+
+  .skills-grid {
+    padding: 0;
+    row-gap: 0.5em;
+  }
+
+  .griddisplay {
+    display: grid;
+  }
 }
