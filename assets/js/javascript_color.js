@@ -1,5 +1,5 @@
 let i = 0;
-const colors = ['gold', 'yellowgreen', 'lightcoral', 'lightblue'];
+const colors = ['yellowgreen', 'lightcoral', 'gold', 'lightblue'];
 
 currentColor = getCookie('color');
 if (currentColor !== null) {
