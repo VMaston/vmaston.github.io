@@ -89,7 +89,7 @@ body {
 .main {
   flex-grow: 1;
   margin: auto;
-  max-width: 980px;
+  max-width: 900px;
   padding: 40px;
   padding-top: 10px;
   color: aliceblue;
