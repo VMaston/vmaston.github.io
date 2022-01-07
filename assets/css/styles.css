@@ -45,7 +45,7 @@ button {
 
 /* === WRAPPER SETTINGS === */
 
-.wrapper::before {
+body::before {
   display: block;
   height: 100%;
 
@@ -55,15 +55,17 @@ button {
   right: 0;
   z-index: -1;
 
-  background-image: url('/assets/img/background.jpg');
+  background-image: url('/assets/img/background.png');
   filter: grayscale(50%);
+  background-color: rgb(30, 30, 30, 95%);
 }
 
-.wrapper {
+body {
+  width: 100vw;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  background-color: rgb(40, 40, 40, 98%);
+  background-color: rgb(30, 30, 30, 95%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,85 +84,6 @@ button {
   }
 }
 
-/* === HEADER SETTINGS === */
-
-.header {
-  grid-area: header; /* Parent: Wrapper */
-
-  display: flex;
-  gap: 20px;
-
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-
-  border-bottom: 2px solid var(--accent);
-  background-color: var(--background);
-}
-
-.mobile-dropdown {
-  display: none;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-
-  .header {
-    grid-area: header; /* Parent: Wrapper */
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    row-gap: 5px;
-
-    text-align: center;
-    align-items: center;
-
-    border-bottom: 2px solid var(--accent);
-    background-color: var(--background);
-  }
-
-  .line {
-    display: none;
-  }
-
-  .mobile-dropdown {
-    display: block;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: rgba(26, 26, 26, 0.8);
-    width: 100%;
-  }
-
-  .menu {
-    display: none;
-  }
-}
-
-.logo {
-  font-size: calc(1.91em + 1vmin);
-  font-family: 'Courier New', Courier, monospace;
-  color: var(--accent);
-}
-
-.menu {
-  font-size: calc(0.91em + 1vmin);
-}
-
-.menu:hover {
-  border-radius: 5px;
-  color: var(--accent-text);
-  background-color: var(--accent);
-}
-
-.active {
-  color: var(--accent);
-}
-
-.show {
-  display: block;
-}
-
 /* === MAIN CONTENT WINDOW === */
 
 .main {
@@ -168,12 +91,12 @@ button {
   margin: auto;
   max-width: 900px;
   padding: 40px;
+  padding-top: 10px;
   color: aliceblue;
-  width: auto;
   background-color: #00000042;
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-
-  background-color: rgba(30, 30, 30, 0.95);
+  box-sizing: border-box;
+  width: 100%;
 }
