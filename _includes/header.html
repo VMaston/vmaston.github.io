@@ -1,15 +1,19 @@
-<!-- <script src="/assets/js/javascript_color.js"></script> -->
+<link rel="stylesheet" type="text/css" href="/assets/css/styles_header.css" />
 <script src="/assets/js/javascript_mobileheader.js"></script>
 
 <div class="header">
   <div class="mobile-dropdown" onclick="dropdown()">≡</div>
-  <div class="line"></div>
   {% for item in site.navigation %} {% assign class = 'menu' %} {% if page.path contains item.title or (item.url == '/'
   and page.path == 'index.md')%} {% assign class ='active menu' %} {% endif %}
 
   <a href="{{ item.url }}" id="menu" class="{{ class }}"> {{ item.title }} </a>
 
   {% endfor %}
-  <div class="line"></div>
-  <!-- <button class="color-select" onclick="colorPick('Red')"></button> -->
+  <div id="image-container" class="image-container imgdisplay">
+    <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
+    <div class="name">
+      Vincent Maston
+      <div class="undername">Web Developer</div>
+    </div>
+  </div>
 </div>

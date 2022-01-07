@@ -5,19 +5,12 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles_bio.css" />
     <script src="/assets/js/javascript_cookies.js"></script>
     <script src="/assets/js/javascript_color.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
   </head>
 
   <body>
-    <div class="wrapper">
-      {% include bio.html %}
-      <div id="main" class="main">
-        {% include header.html %}
-        <div id="description" class="description"><div class="postwindow">{{ content }}</div></div>
-      </div>
-    </div>
+    <div id="main" class="main">{% include header.html %} {{ content }}</div>
   </body>
 </html>
