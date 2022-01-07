@@ -60,12 +60,10 @@ button {
 }
 
 .wrapper {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-
-  grid-template-columns: 25% auto;
-
-  grid-template-areas: 'bio main';
+  background-color: rgb(40, 40, 40, 98%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -74,7 +72,6 @@ button {
     display: grid;
     height: 100%;
 
-    grid-template-columns: 1fr;
     grid-template-rows: auto 1fr; /* .02% is to maintain former height  */
 
     grid-template-areas:
@@ -90,12 +87,12 @@ button {
 .header {
   grid-area: header; /* Parent: Wrapper */
 
-  display: grid;
-  grid-template-columns: 35fr repeat(3, 10fr) 35fr 1fr;
+  display: flex;
   gap: 20px;
 
   text-align: center;
   align-items: center;
+  justify-content: center;
 
   border-bottom: 2px solid var(--accent);
   background-color: var(--background);
@@ -164,41 +161,19 @@ button {
   display: block;
 }
 
-/* === CONTENT SETTINGS === */
-
-.main {
-  grid-area: main; /* Parent: Wrapper */
-  height: 100%;
-
-  display: grid;
-  grid-template-rows: minmax(auto, 8%) 1fr;
-
-  grid-template-areas:
-    'header'
-    'description';
-}
-
-@media only screen and (max-width: 1200px) {
-  /* For mobile phones: */
-  .main {
-    grid-area: main; /* Parent: Wrapper */
-    height: 100%;
-
-    display: grid;
-    grid-template-rows: auto 1fr;
-    column-gap: 0;
-    row-gap: 0px;
-
-    grid-template-areas:
-      'header'
-      'description';
-  }
-}
-
 /* === MAIN CONTENT WINDOW === */
 
-.description {
-  grid-area: description; /* Parent: Main */
+.main {
+  flex-grow: 1;
+  margin: auto;
+  max-width: 900px;
+  padding: 40px;
+  color: aliceblue;
+  width: auto;
+  background-color: #00000042;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 
   background-color: rgba(30, 30, 30, 0.95);
 }
