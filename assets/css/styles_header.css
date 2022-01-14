@@ -7,42 +7,7 @@
 
   text-align: center;
   align-items: center;
-}
-
-.mobile-dropdown {
-  display: none;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-
-  .header {
-    grid-area: header; /* Parent: Wrapper */
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    row-gap: 5px;
-
-    text-align: center;
-    align-items: center;
-  }
-
-  .line {
-    display: none;
-  }
-
-  .mobile-dropdown {
-    display: block;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: rgba(26, 26, 26, 0.8);
-    width: 100%;
-  }
-
-  .menu {
-    display: none;
-  }
+  justify-content: space-around;
 }
 
 .menu {
@@ -57,10 +22,6 @@
 
 .active {
   color: var(--accent);
-}
-
-.show {
-  display: block;
 }
 
 /* === IMAGE CONTAINER === */

@@ -1,8 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/styles_header.css" />
-<script src="/assets/js/javascript_mobileheader.js"></script>
 
 <div class="header">
-  <div class="mobile-dropdown" onclick="dropdown()">≡</div>
   {% for item in site.navigation %} {% assign class = 'menu' %} {% if page.path contains item.title or (item.url == '/'
   and page.path == 'index.md')%} {% assign class ='active menu' %} {% endif %}
 

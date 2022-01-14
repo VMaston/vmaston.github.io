@@ -17,7 +17,7 @@ I am currently working as a Junior Web Developer while developing my expertise i
 
 ### Skills & Experience
 
-<div class="skills-grid griddisplay">
+<div class="skills-grid">
   <div class="skills-container">
     <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"/>
     <span>Angular</span>
