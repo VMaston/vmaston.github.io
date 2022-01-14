@@ -25,14 +25,6 @@ h3 {
   border-bottom-right-radius: 0px;
 }
 
-/* === ABOUT ME === */
-
-.status {
-  flex-grow: 1;
-  padding: 1em;
-  background-color: rgba(26, 26, 26, 0.2);
-}
-
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -44,11 +36,9 @@ h3 {
 .skills-container {
   display: flex;
   padding: 7%;
-  /* background: linear-gradient(to top, rgba(47, 47, 47, 0.4) 5%, rgba(47, 47, 47, 0.1) 95%, rgba(47, 47, 47, 0) 95%); */
   flex-direction: column;
   text-align: center;
   width: fit-content;
-  /* border-bottom: 3px solid var(--accent); */
 }
 
 .skills-container:hover {
@@ -61,11 +51,8 @@ h3 {
   padding-bottom: 15%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .skills-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
 
   .skills-picture {
     padding: 0;
@@ -74,9 +61,5 @@ h3 {
   .skills-grid {
     padding: 0;
     row-gap: 0.5em;
-  }
-
-  .griddisplay {
-    display: grid;
   }
 }

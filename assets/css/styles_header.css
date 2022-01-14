@@ -7,6 +7,7 @@
 
   text-align: center;
   align-items: center;
+  justify-content: space-around;
 }
 
 .menu {
@@ -21,10 +22,6 @@
 
 .active {
   color: var(--accent);
-}
-
-.show {
-  display: block;
 }
 
 /* === IMAGE CONTAINER === */
@@ -68,8 +65,5 @@
 @media only screen and (max-width: 768px) {
   .image-container {
     display: none;
-  }
-  .header {
-    justify-content: space-around;
   }
 }
