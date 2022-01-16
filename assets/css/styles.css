@@ -75,7 +75,7 @@ body {
   margin: auto;
   max-width: 900px;
   padding: 40px;
-  padding-top: 10px;
+  padding-top: 0;
   color: aliceblue;
   background-color: #00000042;
   border-radius: 10px;

@@ -5,6 +5,15 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="/assets/css/styles_description.css" />
 
+<div id="image-container" class="image-container imgdisplay">
+    <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
+    <div class="name">
+      Vincent Maston
+      <div class="undername">Web Developer</div>
+    </div>
+</div>
+
+
 ### About Me
 
 I am a Full-Stack Web Developer based in the United Kingdom.

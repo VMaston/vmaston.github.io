@@ -62,4 +62,29 @@ h3 {
     padding: 0;
     row-gap: 0.5em;
   }
+
+  .imgdisplay {
+    margin-bottom: 0.5em
+  }
+  
+  .imgdisplay {
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+  }
+
+  .me {
+    width: 30%;
+  }
+
+  .name {
+    padding-left: 0;
+    font-size: xx-large;
+  }
+
+  .undername {
+    font-size: 0.7em;
+    text-align: center;
+  }
+
 }
