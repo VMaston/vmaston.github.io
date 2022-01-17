@@ -71,11 +71,14 @@ body {
 /* === MAIN CONTENT WINDOW === */
 
 .main {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   margin: auto;
   max-width: 900px;
   padding: 40px;
   padding-top: 0;
+  padding-bottom: 0;
   color: aliceblue;
   background-color: #00000042;
   border-radius: 10px;

@@ -78,20 +78,13 @@ With a keen eye for the user experience and the server-side knowledge to support
 Along with my primary development skills, I am also competent in using Git, work with Linux often & have past experience with developing software for IoT devices.
 
 <div class="contact-flex">
-  <a class="contact-entry" href="https://www.linkedin.com/in/vincentmaston/">
-      <img
-        class="contact-img"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-        alt="LinkedIn"
-      />
-      <span class="caption">LinkedIn</span>
-  </a>
-  <a class="contact-entry" href="https://github.com/VMaston">
-      <img
-        class="contact-img"
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-        alt="Github"
-      />
-      <span class="caption">GitHub</span>
-  </a>
+    <a class="contact-entry" href="https://www.linkedin.com/in/vincentmaston/">
+        <span class="caption">LinkedIn</span>
+    </a>
+    <a class="contact-entry" href="https://github.com/VMaston">
+        <span class="caption">GitHub</span>
+    </a>
+      <a class="contact-entry" href="https://github.com/VMaston">
+        <span class="caption">Email</span>
+    </a>
 </div>
