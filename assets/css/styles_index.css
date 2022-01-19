@@ -12,6 +12,14 @@ h3 {
   display: none;
 }
 
+ul > :first-child {
+  color: var(--accent);
+}
+
+ol {
+  margin-top: 0;
+}
+
 .postwindow {
   flex-grow: 1;
   margin: auto;
