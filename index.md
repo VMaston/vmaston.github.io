@@ -19,9 +19,9 @@ layout: default
 
 I am a Full-Stack Web Developer based in the United Kingdom.
 
-Following my 2021 graduation from Aberystwyth University with a Computer Science degree, I have pursued a career as a Software Engineer specialising in Web Technologies.
+Following my 2021 graduation from Aberystwyth University with a Computer Science degree, I have pursued a career as a Software Engineer specializing in Web Technologies.
 
-I am currently working as a Junior Web Developer while developing my expertise in System Administration and Node.js Application Development, with a focus on scalable user platforms.
+I am seeking opportunities to develop my skills and career in full-stack web development.
 
 <br>
 
