@@ -3,14 +3,15 @@ title: About
 layout: default
 ---
 
-<link rel="stylesheet" type="text/css" href="/assets/css/styles_description.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/styles_index.css" />
 
 <div id="image-container" class="image-container imgdisplay">
-    <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
     <div class="name">
       Vincent Maston
       <div class="undername">Web Developer</div>
+      <div class="undername" style="color: var(--accent); font-size: 0.6em">contact@vincentmaston.com</div>
     </div>
+    <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
 </div>
 
 
@@ -78,13 +79,15 @@ With a keen eye for the user experience and the server-side knowledge to support
 Along with my primary development skills, I am also competent in using Git, work with Linux often & have past experience with developing software for IoT devices.
 
 <div class="contact-flex">
-    <a class="contact-entry" href="https://www.linkedin.com/in/vincentmaston/">
-        <span class="caption">LinkedIn</span>
-    </a>
-    <a class="contact-entry" href="https://github.com/VMaston">
-        <span class="caption">GitHub</span>
-    </a>
-      <a class="contact-entry" href="https://github.com/VMaston">
-        <span class="caption">Email</span>
-    </a>
+
+<a class="contact-entry" href="https://www.linkedin.com/in/vincentmaston/">
+    LinkedIn
+</a>
+<a class="contact-entry" href="https://github.com/VMaston">
+    GitHub
+</a>
+<a class="contact-entry" href="mailto:contact@vincentmaston.com">
+    Email Me
+</a>
+
 </div>

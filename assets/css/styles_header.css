@@ -41,6 +41,7 @@
   padding-right: 5%;
   color: var(--accent);
   font-weight: lighter;
+  text-align: right;
 }
 
 .undername {
@@ -50,7 +51,7 @@
 }
 
 .me {
-  width: 12%;
+  width: 16%;
   content: url('/assets/img/me.jpg');
   user-select: text;
   border-radius: 50%; /* Circle */
