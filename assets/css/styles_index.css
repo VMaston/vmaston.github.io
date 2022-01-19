@@ -20,6 +20,14 @@ ol {
   margin-top: 0;
 }
 
+a {
+  color: yellowgreen;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .postwindow {
   flex-grow: 1;
   margin: auto;
