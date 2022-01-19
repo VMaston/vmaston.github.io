@@ -13,16 +13,18 @@
 
 .menu {
   font-size: 20px;
+  color: var(--text) !important;
+  text-decoration: none !important;
 }
 
 .menu:hover {
   border-radius: 5px;
-  color: var(--accent-text);
-  background-color: var(--accent);
+  color: var(--accent-text) !important;
+  background-color: var(--accent) !important;
 }
 
 .active {
-  color: var(--accent);
+  color: var(--accent) !important;
 }
 
 /* === IMAGE CONTAINER === */
