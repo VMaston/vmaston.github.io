@@ -4,7 +4,8 @@ layout: blogpost
 blurb: This is a short tutorial on how to host an Angular app on a CPanel instance.
 ---
 
-# {{page.title}}
+# {{page.title}} 
+{{page.blurb}}
 
 1.  **Create a Subdomain or Use an Existing Domain**
 	

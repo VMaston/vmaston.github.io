@@ -38,6 +38,10 @@ button {
   background: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* === WRAPPER SETTINGS === */
 
 body::before {
