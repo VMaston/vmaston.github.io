@@ -9,7 +9,7 @@ layout: default
     <div class="name">
       Vincent Maston
       <div class="undername">Web Developer</div>
-      <div class="undername" style="color: var(--accent); font-size: 0.6em">contact@vincentmaston.com</div>
+      <a href="mailto:contact@vincentmaston.com"><div class="undername" style="color: var(--accent); font-size: 0.6em">contact@vincentmaston.com</div></a>
     </div>
     <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
 </div>
@@ -86,8 +86,8 @@ Along with my primary development skills, I am also competent in using Git, work
 <a class="contact-entry" href="https://github.com/VMaston">
     GitHub
 </a>
-<a class="contact-entry" href="mailto:contact@vincentmaston.com">
-    Email Me
+<a class="contact-entry" href="{{ site.url }}/assets/Vincent_Maston_CV_2022.pdf">
+    CV
 </a>
 
 </div>
