@@ -5,7 +5,7 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="/assets/css/styles_index.css" />
 
-<div id="image-container" class="image-container imgdisplay">
+<div class="image-container imgdisplay">
     <div class="name">
       Vincent Maston
       <div class="undername">Web Developer</div>

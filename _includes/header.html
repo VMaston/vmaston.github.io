@@ -4,10 +4,10 @@
   {% for item in site.navigation %} {% assign class = 'menu' %} {% if page.path contains item.title or (item.url == '/'
   and page.path == 'index.md')%} {% assign class ='active menu' %} {% endif %}
 
-  <a href="{{ item.url }}" id="menu" class="{{ class }}"> {{ item.title }} </a>
+  <a href="{{ item.url }}" class="{{ class }}"> {{ item.title }} </a>
 
   {% endfor %}
-  <div id="image-container" class="image-container">
+  <div class="image-container">
     <div class="name">
       Vincent Maston
       <div class="undername">Web Developer</div>
