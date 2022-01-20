@@ -43,6 +43,16 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 /* === WRAPPER SETTINGS === */
 
 body::before {
