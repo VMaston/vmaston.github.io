@@ -9,7 +9,7 @@ layout: default
 <div class="image-container imgdisplay">
     <div class="name">
       Vincent Maston
-      <div class="undername">Web Developer</div>
+      <div class="undername">Software Developer</div>
       <a href="mailto:contact@vincentmaston.com"><div class="undername" style="color: var(--accent); font-size: 0.6em">contact@vincentmaston.com</div></a>
     </div>
     <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
