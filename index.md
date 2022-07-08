@@ -4,6 +4,7 @@ layout: default
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/css/styles_index.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/styles_blog.css" />
 
 <div class="image-container imgdisplay">
     <div class="name">
@@ -14,18 +15,27 @@ layout: default
     <img class="me" src="/assets/img/me.jpg" alt="Vincent Maston" />
 </div>
 
-
 ### About Me
 
-I am a Full-Stack Web Developer based in the United Kingdom.
+I am a Software Developer based in the United Kingdom.
 
-Following my 2021 graduation from Aberystwyth University with a Computer Science degree, I have pursued a career as a Software Engineer specializing in Web Technologies.
+Following my 2021 graduation from Aberystwyth University with a Computer Science degree, I have pursued a career as a Software Engineer. I have experience within the FinTech industry, bridging customer-facing products with accounting packages on a cloud ecosystem.
 
-I am seeking opportunities to develop my skills and career in full-stack web development.
+I am seeking opportunities to develop my skills and career in software development.
 
 <br>
 
-### Skills & Experience
+### Experience
+
+<div style="margin:2em;margin-left:1em;margin-top:0.5em">
+    <div class="blogentry">
+        <div class="title">Junior Developer @ Accountabl</div>
+        <span class="postDate">February 2022 - June 2022</span>
+        <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from accounting to carbon tracking. My primary focus was on integrating several cloud accounting packages such as Xero and Sage into our software ecosystem, using a NestJS microservice I built from the ground up to handle any API calls required for our import/export procedures to these services.</span>
+    </div>
+</div>
+
+### Skills
 
 <div class="skills-grid">
   <div class="skills-container">
