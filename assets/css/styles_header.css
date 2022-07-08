@@ -58,6 +58,7 @@
   user-select: text;
   border-radius: 50%; /* Circle */
   border: solid rgba(245, 245, 245, 0.103);
+  -webkit-filter: grayscale(20%); /* Grayscale */
 }
 
 .imgdisplay {

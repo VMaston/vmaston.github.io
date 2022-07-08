@@ -2,7 +2,7 @@
 
 :root {
   --background: rgb(32, 32, 32);
-  --accent: yellowgreen;
+  --accent: LightSkyBlue;
   --text: white;
   --accent-text: black;
 }
@@ -51,7 +51,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 
 /* === WRAPPER SETTINGS === */
 
