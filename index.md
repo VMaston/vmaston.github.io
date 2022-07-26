@@ -31,7 +31,7 @@ I am seeking opportunities to develop my skills and career in software developme
     <div class="blogentry">
         <div class="title">Junior Developer @ Accountabl</div>
         <span class="postDate">February 2022 - June 2022</span>
-        <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from accounting to carbon tracking. My primary focus was on integrating several cloud accounting packages such as Xero and Sage into our software ecosystem, using a NestJS microservice I built from the ground up to handle any API calls required for our import/export procedures to these services.</span>
+        <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from commerce accounting to transaction-level carbon tracking. My primary focus was on integrating several cloud accounting packages such as Xero and Sage into our software ecosystem, using a NestJS microservice I built from the ground up to handle any API calls required for our import/export procedures to these services for our connected customers.</span>
     </div>
 </div>
 
@@ -39,33 +39,23 @@ I am seeking opportunities to develop my skills and career in software developme
 
 <div class="skills-grid">
   <div class="skills-container">
-    <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"/>
-    <span>Angular</span>
+    <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+    <span>React</span>
   </div>
-
+  
   <div class="skills-container">
-      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
-      <span>HTML5</span>
-  </div>
-
-  <div class="skills-container">
-      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
-      <span>CSS3</span>
-  </div>
-
-  <div class="skills-container">
-      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
-      <span>Javascript</span>
-  </div>
-
-  <div class="skills-container">
-      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
-      <span>NodeJS</span>
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"/>
+      <span>Svelte</span>
   </div>
 
   <div class="skills-container">
       <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"/>
       <span>NestJS</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"/>
+      <span>GraphQL</span>
   </div>
 
   <div class="skills-container">
@@ -78,15 +68,25 @@ I am seeking opportunities to develop my skills and career in software developme
       <span>Git</span>
   </div>
 
+  <div class="skills-container">
+    <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"/>
+    <span>C++</span>
+  </div>
+
+  <div class="skills-container">
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"/>
+      <span>Go</span>
+  </div>
+  
 </div>
 
-I design aesthetic and functional web application front-ends using HTML, CSS, and JavaScript, along with a number of other frameworks such as Angular or Jekyll to provide a complex logic layer.
+Utilizing my prior experience in the FinTech ecosystem and API development for financial services, I have a focus on creating comprehensive, scalable and developer-friendly APIs.
 
-This skill in front-end development is paired with my experience in building reliable and scalable server-side applications using Node.js based frameworks, such as NestJS, while utilizing database technologies like MySQL to contain and manipulate complex datasets.
+I like to push the envelope and experiment with new front-end frameworks to explore what is possible for developers. I have built applications both in Remix (a React framework) and Svelte, and have past experience in Angular.
 
-With a keen eye for the user experience and the server-side knowledge to support those experiences. I can create comprehensive web software with an intricate understanding of how these systems work at every level of abstraction.
+As a lifelong learner, I like to expand my knowledge into areas that interest me. Currently, I am focusing on Golang to further my knowledge of backend architechtures outside of the Node ecosystem, and keeping up with the embedded hobbyist culture with C++.
 
-Along with my primary development skills, I am also competent in using Git, work with Linux often & have past experience with developing software for IoT devices.
+Along with my primary development skills, I am also competent in using Git, work with Linux & have past experience with developing software for IoT devices.
 
 <div class="contact-flex">
 
