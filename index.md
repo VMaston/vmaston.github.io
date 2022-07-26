@@ -31,7 +31,14 @@ I am seeking opportunities to develop my skills and career in software developme
     <div class="blogentry">
         <div class="title">Junior Developer @ Accountabl</div>
         <span class="postDate">February 2022 - June 2022</span>
-        <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from commerce accounting to transaction-level carbon tracking. My primary focus was on integrating several cloud accounting packages such as Xero and Sage into our software ecosystem, using a NestJS microservice I built from the ground up to handle any API calls required for our import/export procedures to these services for our connected customers.</span>
+        <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from commerce accounting to transaction-level carbon tracking. 
+        <br>
+        <br>
+        The primary responsibilities of my role were focused on integrating several cloud accounting packages, starting with Xero, into the Accountabl ecosystem. This used a NestJS server I built from the ground up to handle any API calls required for the import/export procedures to these services for our connected customers.
+        <br>
+        <br>
+        I also worked in the front-end for some of my early deliverables and demos, learning React and Svelte during my time there.
+        </span>
     </div>
 </div>
 
