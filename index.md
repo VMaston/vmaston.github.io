@@ -56,7 +56,7 @@ I am seeking opportunities to develop my skills and career in software developme
   </div>
 
   <div class="skills-container">
-      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"/>
+      <img class="skills-picture" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"/>
       <span>NestJS</span>
   </div>
 
