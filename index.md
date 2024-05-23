@@ -103,7 +103,7 @@ Along with my primary development skills, I am also competent in using Git, work
 <a class="contact-entry" href="https://github.com/VMaston">
     GitHub
 </a>
-<a class="contact-entry" href="{{ site.url }}/assets/Vincent_Maston_CV_2022.pdf">
+<a class="contact-entry" href="{{ site.url }}/assets/Vincent Maston_CV_2024.pdf">
     CV
 </a>
 
