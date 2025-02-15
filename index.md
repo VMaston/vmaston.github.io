@@ -29,7 +29,7 @@ I am seeking opportunities to develop my skills and career in software developme
 
 <div style="margin:2em;margin-left:1em;margin-top:0.5em">
     <div class="blogentry">
-        <div class="title">Junior Developer @ High Speed Training</div>
+        <div class="title">Engineer 1 @ High Speed Training</div>
         <span class="postDate">September 2024 - Present</span>
         <span class="blurb">I joined High Speed Training as part of their internal initiative to establish and grow a new generation of developers as the team matured.
         <br>
