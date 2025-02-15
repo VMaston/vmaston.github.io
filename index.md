@@ -29,6 +29,18 @@ I am seeking opportunities to develop my skills and career in software developme
 
 <div style="margin:2em;margin-left:1em;margin-top:0.5em">
     <div class="blogentry">
+        <div class="title">Junior Developer @ High Speed Training</div>
+        <span class="postDate">September 2024 - Present</span>
+        <span class="blurb">I joined High Speed Training as part of their internal initiative to establish and grow a new generation of developers as the team matured.
+        <br>
+        <br>
+        While there, my focus has been improving the management experience for our customers through collaborating closely with our internal teams to deliver new features like payment links and in-app purchasing - optimizing our processes and reducing the auxiliary workload for our support team.
+        <br>
+        <br>
+        My time at High Speed Training has been considerable for my professional development. Allowing me to learn more about software architechture, devops, front-end and further developing my skills in C# and the dotnet framework.
+        </span>
+    </div>
+    <div class="blogentry">
         <div class="title">Junior Developer @ Accountabl</div>
         <span class="postDate">February 2022 - June 2022</span>
         <span class="blurb">I was hired by Accountabl to accomplish their ambitions of a full ground-up redesign of the product and service, as the organization expanded it's goals from commerce accounting to transaction-level carbon tracking. 
