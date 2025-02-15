@@ -34,10 +34,10 @@ I am seeking opportunities to develop my skills and career in software developme
         <span class="blurb">I joined High Speed Training as part of their internal initiative to establish and grow a new generation of developers as the team matured.
         <br>
         <br>
-        While there, my focus has been improving the management experience for our customers through collaborating closely with our internal teams to deliver new features like payment links and in-app purchasing - optimizing our processes and reducing the auxiliary workload for our support team.
+        While there, my focus has been improving the management experience for our customers by collaborating closely with our internal teams to deliver new features like payment links and in-app purchasing - optimizing our processes and reducing the auxiliary workload for our support team.
         <br>
         <br>
-        My time at High Speed Training has been considerable for my professional development. Allowing me to learn more about software architechture, devops, front-end and further developing my skills in C# and the dotnet framework.
+        My time at High Speed Training has been considerable for my professional development. Allowing me to learn more about front-end design, software architechture, devops and further developing my skills in C# and the dotnet framework.
         </span>
     </div>
     <div class="blogentry">
